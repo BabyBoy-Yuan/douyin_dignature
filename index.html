@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title></title>
+<!--  <link rel="stylesheet" type="text/css" href="css/swiper-3.4.1.min.css"/>-->
+  <script src="./jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+<!--  <script src="js/swiper-bundle.min.js" type="text/javascript" charset="utf-8"></script>-->
+ </head>
+ <body>
+  
+ </body>
+ <script type="text/javascript">
+  $.ajax({
+    url: 'http://127.0.0.1:7878/str?id=' + 'MS4wLjABAAAAoR-gw6TosYddSdVaIePXwxsG-A2bFJ6__sjcyEo_7NQ',
+    type: 'get',
+    dataType:'jsonp',
+    async: false,
+    success: function(res){
+     console.log(res)
+    }
+  })
+ </script>
+</html>
