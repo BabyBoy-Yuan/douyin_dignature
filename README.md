@@ -1,3 +1,3 @@
-# douyin_dignature
+# douyin_signature
 抖音网分享页签名参数生成
 该参数仅供参考交流和学习,禁止商业用途.采用本参数用于商业用途后果与本人无关
